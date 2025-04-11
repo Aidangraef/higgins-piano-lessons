@@ -268,7 +268,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg.jpg);
     height: auto;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
@@ -308,7 +308,7 @@ button {
 }
 
 .learnmore_bt {
-    width: 170px;
+    width: 190px;
 }
 
 .learnmore_bt a {
