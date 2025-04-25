@@ -43,6 +43,7 @@ body {
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden !important;
+    background-color: #FAD4D8;
 }
 
 a {
@@ -217,12 +218,19 @@ button {
 
 /* header section start */
 
+.header_background {
+    background-color: #FAD4D8;
+    padding: 10px;
+}
+
 .header_section {
-    width: 100%;
-    float: left;
-    background-color: #f8a39d;
+    width: 95%;
+    /* float: right; */
+    background-color: #69353F;
     height: auto;
     background-size: 100%;
+    border-radius: 25px;
+    margin: auto;
 }
 
 .bg-light {
@@ -240,12 +248,12 @@ button {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #f76d37;
+    color: #914D76;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f76d37;
+    color: #914D76;
 }
 
 .navbar {
@@ -259,7 +267,10 @@ button {
     color: #fff;
 }
 
-.logo {}
+.logo a {
+    color: #fff;
+    font-size: 30px;
+}
 
 /* header section end */
 
@@ -273,6 +284,7 @@ button {
     background-size: 100%;
     padding: 10px 0px 25px 0px;
     background-repeat: no-repeat;
+    background-color: #FAD4D8;
 }
 
 .banner_taital {
@@ -281,11 +293,21 @@ button {
     padding: 100px 0px;
 }
 
+.outstanding_text_back {
+    overflow: auto;
+    float: left;
+    width: 66%;
+    background-size: 100%;
+    border-radius: 25px;
+    background-color: rgba(145, 77, 118, .75);
+    padding: 20px;
+}
+
 .outstanding_text {
     width: 100%;
     float: left;
     font-size: 60px;
-    color: #f2f1e3;
+    color: #ededed;
     padding-bottom: 0px;
 }
 
@@ -315,7 +337,6 @@ button {
     width: 100%;
     float: left;
     padding-right: 0;
-    background-color: #f8a39d;
     color: #fff;
     text-align: center;
     margin-right: 12px;
@@ -323,10 +344,12 @@ button {
     padding: 15px 40px;
     font-size: 14px;
     text-transform: uppercase;
+    background-color: #69353F;
+    border-radius: 10px;
 }
 
 .learnmore_bt a:hover {
-    background-color: #f8a39d;
+    background-color: #914D76;
     color: #fff;
 }
 
@@ -371,6 +394,7 @@ button {
 .about_section {
     width: 100%;
     float: left;
+    background-color: #FAD4D8;
 }
 
 .about_taital_main {
@@ -383,7 +407,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #f76d37;
+    color: #69353F;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -416,15 +440,20 @@ button {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #252525;
     color: #ffffff;
     text-align: center;
     padding: 8px;
+    background-color: #69353F;
+    border-radius: 10px;
 }
 
 .read_bt a:hover {
     color: #ffffff;
-    background-color: #f76d37;
+    background-color: #914D76;
+}
+
+.about_img img {
+    border-radius: 25px;
 }
 
 /* about section end */
@@ -541,7 +570,7 @@ a:hover {
 .services_section {
     width: 100%;
     float: left;
-    background-image: url(../images/services-bg.png);
+    /* background-image: url(../images/services-bg.png); */
     height: auto;
     padding-bottom: 100px;
     background-attachment: fixed;
@@ -680,7 +709,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #f76d37;
+    color: #914D76;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
@@ -788,7 +817,7 @@ a:hover {
     float: left;
     font-size: 40px;
     text-align: center;
-    color: #f76d37;
+    color: #914D76;
     font-weight: bold;
 }
 
